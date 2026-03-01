@@ -39,21 +39,21 @@ chmod -R 777 logs/
 chmod -R 777 scripts/
 ```
 
-3. Проверьте локальную среду на наличие Docker и Docker Compose:
+4. Проверьте локальную среду на наличие Docker и Docker Compose:
 
 ```bash
 docker --version
 docker-compose --version
 ```
 
-4. Настройте свой `.env`.
+5. Настройте свой `.env`.
 
-5. Запустите контейнеры:
+6. Запустите контейнеры:
 ```bash
 docker-compose up -d
 ```
 
-6. Перейдите на веб-интерфейсы:
+7. Перейдите на веб-интерфейсы:
 - Airflow: http://localhost:8080
 - MLflow: http://localhost:5050
 - Jupyter: http://localhost:8888
