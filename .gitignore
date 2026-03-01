@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# airflow artifacts
+logs/
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+jupyter-data/
+
+# local volumes / data
+postgres-db-volume/
+mlflow-data/
+mlruns/
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
